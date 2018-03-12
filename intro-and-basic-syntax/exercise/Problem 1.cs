@@ -6,18 +6,16 @@ namespace ProgramTest1
     {
         static void Main(string[] args)
         {
-            string productName = Console.ReadLine();
-
-            int productVolume = int.Parse(Console.ReadLine());
-            int productEnergy = int.Parse(Console.ReadLine());
-            int productSugar = int.Parse(Console.ReadLine());
-
-            double energy = productVolume / 100.00 * productEnergy;
-            double sugars = productVolume / 100.00 * productSugar;
-
-            Console.WriteLine($"{productVolume}ml {productName}:");
-            Console.WriteLine($"{energy}kcal, {sugars}g sugars");
-
+            //declairs first num//
+            int first = int.Parse(Console.REadLine());
+            //declairs second num//
+            int second = int.Parse(Console.REadLine());
+            //declairs third num//
+            int third = int.Parse(Console.REadLine());
+            //declairs fourth num//
+            int fourth = int.Parse(Console.REadLine());
+            //output of all numbers in four digit debit card format//
+            Console.WriteLine($"{first:D2}{second:D2}{ third:D2}{fourth:D2}");
         }
     }
 }
