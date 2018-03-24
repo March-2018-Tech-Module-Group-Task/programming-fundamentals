@@ -11,9 +11,9 @@ namespace Problem_3
         static void Main(string[] args)
         {
             //Reading miles
-            int input = int.Parse(Console.ReadLine());
+            int TheNum = int.Parse(Console.ReadLine());
             //Converting miles to kilometers
-            Console.WriteLine($"{(input * 1.60934):f2}");
+            Console.WriteLine($"{(TheNum * 1.60934):f2}");
         }
     }
 }

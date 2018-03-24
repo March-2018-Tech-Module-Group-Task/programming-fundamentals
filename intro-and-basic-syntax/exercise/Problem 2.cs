@@ -12,11 +12,11 @@ namespace Rectangle_Area
         {
             //We recieve from the Console the width of the rectangle.
             //We recieve from the Console the height of the rectangle.
-            double width = double.Parse(Console.ReadLine());
+            double dibel = double.Parse(Console.ReadLine());
             double height = double.Parse(Console.ReadLine());
 
             //We calculate the area of the rectangle.
-            double area = width*height;
+            double area = dibel*height;
 
             //We print the final result.
             Console.WriteLine(area);
