@@ -1,7 +1,30 @@
-##  Programming fundamentals Repository
+### Problem 1.                
+Debit Card Number
 
-## Problem Excercises
-![alt tag](https://github.com/March-2018-Tech-Module-Group-Task/programming-fundamentals/blob/master/firstPart.png)
-![alt tag](https://github.com/March-2018-Tech-Module-Group-Task/programming-fundamentals/blob/master/secondPart.png)
-![alt tag](https://github.com/March-2018-Tech-Module-Group-Task/programming-fundamentals/blob/master/thirdPart.png)
+Write a program, which receives **4****integers**
+on the console and **prints them** in **4-digit debit card format**. See the
+examples below for the appropriate formatting.
 
+#### Examples
+
+ 
+
+**Input**
+
+ 
+
+**Output**
+
+ 
+
+12
+
+433
+
+1
+
+5331
+
+ 
+
+0012 0433 0001 5331
