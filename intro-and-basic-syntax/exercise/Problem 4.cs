@@ -9,16 +9,16 @@ namespace E_04._Beverage_Labels
             //Name of product//
             string name = Console.ReadLine();
             //Volume in integer//
-            int volume = int.Parse(Console.ReadLine());
+            int obem = int.Parse(Console.ReadLine());
             //Energy content value input//
             int energy_content = int.Parse(Console.ReadLine());
             //Sugar content value input//
             int sugar_content = int.Parse(Console.ReadLine());
             //Output Volume with ml//
-            Console.WriteLine($"{volume}ml {name}:");
+            Console.WriteLine($"{obem}ml {name}:");
             //Output in the certant format//
-            Console.WriteLine($"{1.0*energy_content*volume/100}kcal, " +
-                $"{1.0*sugar_content*volume/100}g sugars");
+            Console.WriteLine($"{1.0*energy_content*obem/100}kcal, " +
+                $"{1.0*sugar_content*obem/100}g sugars");
 
         }
     }
